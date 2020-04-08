@@ -114,7 +114,8 @@ $ make
 ```
 To compile and run unit test:
 ```console
-$ ./run_tests.sh
+$ cd battery_task
+$ ./run_test.sh
 ```
 
 ## Example output
