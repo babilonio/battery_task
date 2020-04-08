@@ -105,7 +105,7 @@ $ ./src/battery_task 4
 ```
 NOTE: Interrupt execution with CTRL+C.
 #### Tests
-The Google test library is included but needs to be built.
+The Google test library is included but needs to be built (requires CMake).
 
 ```console
 $ cd lib/googletest && mkdir build && cd build
