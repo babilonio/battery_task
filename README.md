@@ -52,7 +52,6 @@ File: https://github.com/babilonio/battery_task/blob/master/src/setup.cpp
 
 ### Setup 4
 G powermeter will measure the adition of P, C and B (Battery power), plus the power flowing from/to the grid.
-In addition, since the battery power affects the measurement, two iterations will be needed to calculate the setpoint and to establish the power in order for the battery to adapt correctly.
 
 Since the sum of all values (P, C, G, B) must be zero, the set point turns out to be -(G + B).
 
