@@ -63,8 +63,6 @@ NOTE: The B value is set as the negative value of the set point. A positive sign
  * 2. P - C + G + B = 0
  * 3. P - C = - (G + B)
  *
- * NOTE: As setpoint alters B value, in this setup, it takes two iterations of setpoint
- * calculation to correctly set the proper value for B and setpoint.
  *
  * @param G Power at grid connection point.
  * @param B Output/input power of battery. Positive if battery is discharging.
